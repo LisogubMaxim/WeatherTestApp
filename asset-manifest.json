@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WeatherTestApp/static/css/main.cb300106.css",
+    "main.js": "/WeatherTestApp/static/js/main.8a0af707.js",
+    "index.html": "/WeatherTestApp/index.html",
+    "main.cb300106.css.map": "/WeatherTestApp/static/css/main.cb300106.css.map",
+    "main.8a0af707.js.map": "/WeatherTestApp/static/js/main.8a0af707.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb300106.css",
+    "static/js/main.8a0af707.js"
+  ]
+}
