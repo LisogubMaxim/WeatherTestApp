@@ -8,6 +8,11 @@
   list-style-type: none;
 }
 
+html,
+body {
+  width: 100%;
+}
+
 a {
   text-decoration: none;
   color: var(--primary-color);

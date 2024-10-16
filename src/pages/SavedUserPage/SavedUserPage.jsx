@@ -24,17 +24,15 @@ const SavedUserPage = () => {
   return (
     <div className={styles.randomUsersPage}>
       {users.length === 0 ? (
-        <div className={styles.empty}>Empty</div>
+        <div className={styles.empty}>No saved users found</div>
       ) : (
-        <div>
-          <ul className={styles.cards}>
-            {users.map((user, index) => (
-              <li key={index}>
-                <Card user={user} isSaved={false} onDelete={() => handleDeleteUser(index)} />
-              </li>
-            ))}
-          </ul>
-        </div>
+        <ul className={styles.cards}>
+          {users.map((user, index) => (
+            <li key={index}>
+              <Card user={user} isSaved={false} onDelete={() => handleDeleteUser(index)} />
+            </li>
+          ))}
+        </ul>
       )}
 
       <div className={styles.home} onClick={handlerClickHomeNavigation}>

@@ -46,12 +46,12 @@
     gap: 15px;
   }
 
-  .home {
-    .image {
-      width: 45px;
-      height: 45px;
-    }
-  }
+  // .home {
+  //   .image {
+  //     width: 45px;
+  //     height: 45px;
+  //   }
+  // }
 }
 
 @media (max-width: 1024px) {
@@ -59,12 +59,12 @@
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   }
 
-  .home {
-    .image {
-      width: 40px;
-      height: 40px;
-    }
-  }
+  // .home {
+  //   .image {
+  //     width: 40px;
+  //     height: 40px;
+  //   }
+  // }
 }
 
 @media (max-width: 768px) {
@@ -78,8 +78,8 @@
     right: 15px;
 
     .image {
-      width: 35px;
-      height: 35px;
+      width: 40px;
+      height: 40px;
     }
   }
 }
